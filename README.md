@@ -117,7 +117,7 @@ facial.build.import_weights()
 ```
 
 ---
-# <span style="color:rgb(233, 94, 39)">**Extras**
+# <span style="color:rgb(233, 94, 39)">**EXTRAS**
 
 You will need to reload the script module if you did mistake in your config customisation or for script updates.
 

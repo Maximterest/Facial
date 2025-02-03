@@ -45,7 +45,7 @@ facial.config.PROJECT_INFO["asset"] = "yourChar"
 
 ## <span style="color:rgb(233, 94, 39)">**Step 1: Export Data**
 
-#### If you start a new character ignore this step
+**If you start a new character ignore this step**
 1. Open the last facial character publish Maya scene
 2. Export the data and weights using commands bellow
 
@@ -251,3 +251,5 @@ If you have **Dual Quaternions** or **Weight Blended** on your skinClusters you 
 import_data() you can import data position attributes... from an other characters
 
 directory = r"Y:\LFDN\assets\characters\asset\maya\data\facial_rig_build"
+
+

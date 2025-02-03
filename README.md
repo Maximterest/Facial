@@ -117,7 +117,6 @@ facial.build.import_weights()
 ```
 
 ---
----
 # <span style="color:rgb(233, 94, 39)">**Extras**
 
 You will need to reload the script module if you did mistake in your config customisation or for script updates.
@@ -225,7 +224,6 @@ facial.config.DEFORMERS_STACK["M_glasses_compil_mesh"] = {
 ```
 
 ---
----
 ### <span style="color:rgb(233, 94, 39)">**STEP 01**
 
 <span style="color:rgb(218, 37, 82)">**PARAMETERS:**
@@ -237,7 +235,6 @@ facial.config.DEFORMERS_STACK["M_glasses_compil_mesh"] = {
 |**deformer_stack_keys** (list)|default = **(0, 1, 2, 3, 4, 5, 6, 8)**|
 ||List of indexes for facial.config.DEFORMERS_STACK{}, indexes give a mesh result.|
 
----
 ---
 ### <span style="color:rgb(233, 94, 39)">**STEP 02**
 

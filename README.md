@@ -233,13 +233,17 @@ config.DEFORMERS_STACK["M_glasses_compil_mesh"] = {
 
 ### Add **BCS** node:
 
+<span style="color:rgb(218, 37, 82)">**PARAMETERS:**
+
+|Command:|`config.ALL_CONNECTIONS["bcs"][]`|
+|-|-|
+|**key** (str)|Give a BCS node name + "_transfer"|
+|**value** (str)|Give a mesh name|
+
 Example:
 
 ```python
-facial.config.ALL_CONNECTIONS["bcs"]["M_helmet_bs_bcs_transfer"] = "M_helmet_bs_mesh"
-
-# key: {bcs_node_name}_transfer
-# value: mesh name
+config.ALL_CONNECTIONS["bcs"]["M_helmet_bs_bcs_transfer"] = "M_helmet_bs_mesh"
 ```
 
 ---

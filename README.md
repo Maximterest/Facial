@@ -255,10 +255,8 @@ config.ALL_CONNECTIONS["bcs"]["M_helmet_bs_bcs_transfer"] = "M_helmet_bs_mesh"
 |-|-|
 |**directory** (str)| default is **r"Y:\LFDN\assets\characters\yourChar\maya\data\facial_rig_build"**
 ||Give a custom directory if needed. Where to export all deformers data files.|
-|**deformer_stack_keys** (list)|default is **(0, 1, 2, 3, 4, 5, 6, 8, 10)**|
-||List of indexes for config.DEFORMERS_STACK{}, indexes give a mesh result.|
 
-**If you customise your config data.** You need to add new meshes to the export weights
+#### **If you customise your config data.** You need to add new meshes to the export weights
 
 Example:
 
@@ -295,7 +293,7 @@ build.import_weights(deformer_stack_keys=[
 |**directory** (str)| default is **r"Y:\LFDN\assets\characters\yourChar\maya\data\facial_rig_build"**
 ||Give a custom directory if needed. Where to import all data files.|
 
-**If you customise your config data.** You need to add new meshes to the export weights
+#### **If you customise your config data.** You need to add new meshes to the export weights
 
 Example:
 

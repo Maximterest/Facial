@@ -261,7 +261,7 @@ config.ALL_CONNECTIONS["bcs"]["M_helmet_bs_bcs_transfer"] = "M_helmet_bs_mesh"
 Example:
 
 ```python
-build.import_weights(deformer_stack_keys=[
+build.export_weights(deformer_stack_keys=[
     0, 1, 2, 3, 4, 5, 6, 8, 10, # Default
     # Add meshes:
     list(config.DEFORMERS_STACK.keys()).index("M_glasses_compil_mesh"),

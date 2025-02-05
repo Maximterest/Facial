@@ -11,7 +11,7 @@ The facial module is a Python script for Autodesk Maya. It facilitates the creat
 <span style="color:rgb(218, 37, 82)">**RUN:**
 
 ```python
-from facial import config, utils, build
+from lfdn_td.facial import config, utils, build
 ```
 
 ### <span style="color:rgb(233, 94, 39)">**2. Config your projet:**

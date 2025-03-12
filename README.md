@@ -268,17 +268,3 @@ config.ALL_CONNECTIONS["bcs"]["M_helmet_bs_bcs_transfer"] = "M_helmet_bs_mesh"
 ||Import cvs position or not|
 |**directory** (str)| default is **r"Y:\LFDN\assets\characters\yourChar\maya\data\facial_rig_build"**
 ||Give a custom directory if needed. Where to import all data files.|
-
-#### **If you customise your config data.** You need to add new meshes to the export weights
-
-Example:
-
-```python
-build.import_weights(deformer_stack_keys=[
-    0, 1, 2, 3, 4, 5, 6, 8, 10, # Default
-    # Add meshes:
-    list(config.DEFORMERS_STACK.keys()).index("M_glasses_compil_mesh"),
-    # ...
-    ]
-)
-```

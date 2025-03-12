@@ -247,32 +247,6 @@ config.ALL_CONNECTIONS["bcs"]["M_helmet_bs_bcs_transfer"] = "M_helmet_bs_mesh"
 ```
 
 ---
-### <span style="color:rgb(233, 94, 39)">**STEP 1**
-
-<span style="color:rgb(218, 37, 82)">**PARAMETERS:**
-
-|Command:|`build.export_weights()`|
-|-|-|
-|**directory** (str)| default is **r"Y:\LFDN\assets\characters\yourChar\maya\data\facial_rig_build"**
-||Give a custom directory if needed. Where to export all deformers data files.|
-|**deformer_stack_keys** (list)|default is **(0, 1, 2, 3, 4, 5, 6, 8, 10)**|
-||List of indexes for config.DEFORMERS_STACK{}, indexes give a mesh result.|
-
-#### **If you customise your config data.** You need to add new meshes to the export weights
-
-Example:
-
-```python
-build.export_weights(deformer_stack_keys=[
-    0, 1, 2, 3, 4, 5, 6, 8, 10, # Default
-    # Add meshes:
-    list(config.DEFORMERS_STACK.keys()).index("M_glasses_compil_mesh"),
-    # ...
-    ]
-)
-```
-
----
 ### <span style="color:rgb(233, 94, 39)">**STEP 2**
 
 <span style="color:rgb(218, 37, 82)">**PARAMETERS:**
@@ -281,8 +255,8 @@ build.export_weights(deformer_stack_keys=[
 |-|-|
 |**directory** (str)| default is **r"Y:\LFDN\assets\characters\yourChar\maya\data\facial_rig_build"**
 ||Give a custom directory if needed. Where to import all deformers data files.|
-|**deformer_stack_keys** (list)|default is **(0, 1, 2, 3, 4, 5, 6, 8, 10)**|
-||List of indexes for config.DEFORMERS_STACK{}, indexes give a mesh result.|
+|**skip_meshes** (list)|default is []|
+||Give mesh you don't want to import deformers weights|
 
 |Command:|`build.import_data()`|
 |-|-|
